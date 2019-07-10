@@ -1,0 +1,21 @@
+{
+  "name": "meetapp",
+  "version": "1.0.0",
+  "description": "Meeting App",
+  "main": "src/server.js",
+  "author": "Thays <thays.sn@hotmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.0",
+    "nodemon": "^1.19.1",
+    "sucrase": "^3.10.1"
+  },
+  "scripts": {
+    "start" : "nodemon"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
